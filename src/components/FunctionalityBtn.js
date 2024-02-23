@@ -1,5 +1,4 @@
 import React from 'react'
-// import { FiDelete } from "react-icons/FiDelete";
 
 const FunctionalityBtn = ({ handleBtn }) => {
   return (

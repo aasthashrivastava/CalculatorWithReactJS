@@ -31,10 +31,10 @@ const Calculator1 = () => {
         }
     }
 
-    const handleSqrtBtn = (value) => {
+    const handleSquareRootBtn = (value) => {
         if (value) {
             setResultValue(Math.sqrt(value));
-        }else{
+        } else {
             setResultValue("Error")
         }
     }
@@ -61,7 +61,7 @@ const Calculator1 = () => {
                     <Button valueBtn={"0"} handleButtonClick={handleButtonClick} />
                     <Button valueBtn={"**"} handleButtonClick={handleButtonClick} />
                     <Button valueBtn={"."} handleButtonClick={handleButtonClick} />
-                    <input className='sqrt' value='√' type='button' onClick={() => handleSqrtBtn(value)} />
+                    <input className='sqrt' value='√' type='button' onClick={() => handleSquareRootBtn(value)} />
                 </div>
             </div>
         </>
